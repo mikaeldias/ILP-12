@@ -21,14 +21,6 @@ while contador_while_2 < tamanho_lista:
 for i in range(len(lista_1)):
     lista_intercalada.append(lista_1[i])
     lista_intercalada.append(lista_2[i])
-
-
-
-
-
-
-
-
 print(lista_1)
 print(lista_2)
 print(lista_intercalada)
