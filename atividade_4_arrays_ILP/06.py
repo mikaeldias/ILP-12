@@ -11,5 +11,4 @@ for x in range(qtd_valores_listas):
     lista_string += [string]
     if x % 2 != 0:
         lista_numeros[x] = lista_string[x]
-
 print(lista_numeros)
