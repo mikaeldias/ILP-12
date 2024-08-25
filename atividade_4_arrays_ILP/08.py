@@ -17,4 +17,6 @@ while len(valores_impar) > 1:
     soma_total = soma_1 + soma_2
     soma_valores_impar.append(soma_total)
     del valores_impar[0]
-print(soma_valores_impar)
+soma_valores_finail = sum(soma_valores_impar)
+
+print(soma_valores_impar[0], '+', soma_valores_impar[1], '+',soma_valores_impar[2], '+', '=', soma_valores_finail )
